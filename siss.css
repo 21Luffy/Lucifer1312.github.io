@@ -50,19 +50,19 @@ body {
     object-fit: cover;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 650px) {
     .gallery {
         justify-content: center;
         flex-direction: column;
     }
 }
 
-@media (max-width: 435px) {
+/* @media (max-width: 435px) {
     .gallery-item{
     flex-basis: calc(100% / 2 - 2rem);
     }
     .gallery {
-        display: flex;
+        display: flex; */
     }
 }
 

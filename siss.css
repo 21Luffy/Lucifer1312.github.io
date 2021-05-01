@@ -18,6 +18,7 @@ body {
     padding: 1rem 0;
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: space-around; */
 }
 
 .gallery-item {
@@ -48,3 +49,27 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 350px) {
+    .gallery {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 435px) {
+    .gallery-item{
+    flex-basis: calc(100% / 2 - 2rem);
+    }
+    .gallery {
+        display: flex;
+    }
+}
+
+/* .had {
+    display: block;
+    position: fixed;
+    right: 0%;
+    bottom: 0;
+    
+} */

@@ -22,6 +22,8 @@ body {
 }
 
 .gallery-item {
+    max-width: 420px;
+    min-width: 250px;
     padding: 1.25rem;
     background-color: rgba(255, 255, 255, 0.377);
     margin: 1rem;
@@ -52,6 +54,8 @@ body {
 
 @media (max-width: 650px) {
     .gallery {
+        padding-left: 10%;
+        padding-right: 10%;
         justify-content: center;
         flex-direction: column;
     }
@@ -62,9 +66,9 @@ body {
     flex-basis: calc(100% / 2 - 2rem);
     }
     .gallery {
-        display: flex; */
+        display: flex;
     }
-}
+} */
 
 /* .had {
     display: block;
